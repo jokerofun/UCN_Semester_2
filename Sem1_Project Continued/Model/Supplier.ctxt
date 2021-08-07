@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Supplier
+comment0.text=\r\n\ Supplier\ with\ contact\ information.\r\n\r\n\ @author\ Alexandru\ Krausz,\ Martin\ Benda,\ Sebastian\ Labuda,\ Simeon\ Kolev\r\n\ @version\ 2019.12.5\r\n
+comment1.params=name\ address\ CVR
+comment1.target=Supplier(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ Supplier\r\n\ @param\ name\ of\ the\ Supplier\r\n\ @param\ address\ of\ the\ Supplier\r\n\ @param\ CVR\ of\ the\ Supplier\r\n
+comment2.params=name
+comment2.target=void\ setNameSupplier(java.lang.String)
+comment2.text=\r\n\ Set\ the\ name\ of\ this\ Supplier\r\n\ @param\ name\r\n
+comment3.params=address
+comment3.target=void\ setAddressSupplier(java.lang.String)
+comment3.text=\r\n\ Set\ the\ address\ of\ this\ Supplier\r\n\ @param\ address\r\n
+comment4.params=CVR
+comment4.target=void\ setCVRSupplier(java.lang.String)
+comment4.text=\r\n\ Set\ the\ CVR\ of\ this\ Supplier\r\n\ @param\ CVR\r\n
+comment5.params=
+comment5.target=java.lang.String\ getNameSupplier()
+comment5.text=\r\n\ @return\ name\ of\ this\ Supplier\r\n
+comment6.params=
+comment6.target=java.lang.String\ getAddressSupplier()
+comment6.text=\r\n\ @return\ address\ of\ this\ Supplier\r\n
+comment7.params=
+comment7.target=java.lang.String\ getCVRSupplier()
+comment7.text=\r\n\ @return\ CVR\ of\ this\ Supplier\r\n
+numComments=8

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=GroupContainer
+comment0.text=\r\n\ GroupContainer\ singleton\ containing\ Groups.\r\n\r\n\ @author\ Alexandru\ Krausz,\ Martin\ Benda,\ Sebastian\ Labuda,\ Simeon\ Kolev\r\n\ @version\ 2019.12.4\r\n
+comment1.params=
+comment1.target=GroupContainer()
+comment1.text=\r\n\ Constructor\ for\ GroupContainer\r\n\ @param\ groups\ list\ of\ groups\r\n
+comment2.params=
+comment2.target=GroupContainer\ getGroupContainer()
+comment2.text=\r\n\ Creates\ and\ returns\ an\ instance\ of\ GroupContainer\r\n\ @return\ groupContainer\ instance\r\n
+comment3.params=group
+comment3.target=void\ addGroup(Group)
+comment3.text=\r\n\ Used\ to\ add\ a\ group\ to\ the\ list\ of\ groups\r\n\ @param\ group\ object\r\n
+comment4.params=group
+comment4.target=void\ removeGroup(Group)
+comment4.text=\r\n\ Used\ to\ remove\ a\ group\ from\ the\ list\ of\ groups\r\n\ @param\ group\ object\r\n
+numComments=5

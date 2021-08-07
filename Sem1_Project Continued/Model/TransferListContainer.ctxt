@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=TransferListContainer
+comment0.text=\r\n\ TransferListContainer\ contaning\ transferLists.\r\n\r\n\ @author\ Alexandru\ Krausz,\ Martin\ Benda,\ Sebastian\ Labuda,\ Simeon\ Kolev\r\n\ @version\ 2019.12.10\r\n
+comment1.params=
+comment1.target=TransferListContainer()
+comment1.text=\r\n\ Constructor\ for\ TransferListContainer\r\n
+comment2.params=
+comment2.target=TransferListContainer\ getTransferListContainer()
+comment2.text=\r\n\ Creates\ and\ returns\ an\ instance\ of\ TransferListContainer\r\n\ @return\ TransferListContainer\ instance\r\n
+comment3.params=transferList
+comment3.target=boolean\ addTransferList(TransferList)
+comment3.text=\r\n\ Used\ to\ add\ a\ transferList\ to\ the\ array\ of\ transferLists\r\n\ @param\ transferList\ TransferList\r\n\ @return\ boolean\r\n
+comment4.params=transferList
+comment4.target=void\ removeTransferList(TransferList)
+comment4.text=\r\n\ Used\ to\ remove\ a\ transferList\ from\ the\ array\ of\ transferLists\r\n\ @param\ transferList\ TransferList\r\n
+comment5.params=toWarehouse
+comment5.target=java.util.ArrayList\ getTransferLists(java.lang.String)
+comment5.text=\r\n\ Used\ to\ get\ an\ arrayList\ containing\ all\ transferList\ for\ a\ given\ Warehouse\r\n\ Done\ by\ creating\ a\ temporary\ arrayList,\ putting\ all\ found\ transferList\ into\ it\ and\ then\ returns\ it\r\n\ @param\ toWarehouse\ Warehouse\r\n\ @return\ ArrayList<TransferList>\r\n
+comment6.params=input
+comment6.target=boolean\ deleteTransferList(int)
+comment6.text=\r\n\ Used\ to\ remove\ a\ transferList\ from\ the\ arrayList\ container\r\n\ @param\ input\ int\r\n\ @return\ boolean\r\n
+comment7.params=trans
+comment7.target=int\ getIndexTransferList(TransferList)
+comment7.text=\r\n\ Used\ to\ get\ the\ index\ of\ a\ transferList\ in\ the\ arrayList\ container\r\n\ @param\ trans\ TransferList\r\n\ @return\ int\r\n
+numComments=8

@@ -1,0 +1,143 @@
+create table saleOrder(
+saleOrderNumber int identity(1,1),
+customerName varchar(30) not null,
+orderDate date not null,
+dueDate date not null,
+offerNumber int not null,
+totalPrice decimal(6,2) not null,
+version BIGINT not null
+primary key (saleOrderNumber)
+);
+
+create table offer(
+offerNumber int identity(1,1),
+dueDate date not null,
+materialPrice decimal(6,2) not null,
+totalPrice decimal(6,2) not null,
+version BIGINT not null
+primary key (offerNumber)
+);
+
+create table procedures(
+code int identity(1,1),
+procedureName varchar(30) not null,
+pricePerHour decimal(6,2) not null,
+employeeTypeRequired varchar(30) not null,
+done int not null,
+version BIGINT not null
+primary key (code)
+);
+
+create table offerProcedures(
+offerNumber int not null,
+productName varchar(30) not null,
+quantity int not null,
+hours int not null,
+code int not null,
+version BIGINT not null
+constraint onpncUnique unique(offerNumber, productName, code)
+constraint fkON foreign key(offerNumber) references Offer(offerNumber)
+on delete cascade
+on update cascade,
+constraint fkOP foreign key(code) references Procedures(code)
+on delete cascade
+on update cascade,
+);
+
+create table product(
+productId int identity(1,1),
+productName varchar(30) not null,
+productDescription varchar(30) not null,
+productPrice decimal(6,2) not null,
+productQuantity int not null,
+saleOrderNumber int not null,
+version BIGINT not null
+primary key (productId)
+constraint fkpso foreign key(saleOrderNumber) references saleOrder(saleOrderNumber)
+on delete cascade
+on update cascade
+);
+
+create table procedureOrder(
+procedureA int, 
+procedureB int 
+constraint ppUnique unique(procedureA,procedureB));
+create table employeeProcedure(
+employeeId int, 
+code int 
+);
+
+create table customer(
+customerId int identity(1,1),
+companyName varchar(30) not null,
+CUI varchar(30) not null,
+phoneNumber varchar(30) not null,
+email varchar(30) not null,
+version BIGINT not null
+primary key (customerId)
+);
+
+create table position(
+positionName varchar(30) not null,
+clearance varchar(30) not null,
+version BIGINT not null
+primary key (positionName)
+);
+
+create table employee(
+employeeId int identity(1,1),
+firstName varchar(30) not null,
+middleName varchar(30) not null,
+lastName varchar(30) not null,
+salaryPerHour decimal(6,2) not null,
+phoneNumber varchar(30) not null,
+email varchar(30) not null,
+position varchar(30) not null,
+version BIGINT not null
+primary key (employeeId)
+constraint fkPos foreign key(position) references position(positionName)
+on update cascade
+);
+
+create table address(
+zipcode varchar(30) not null,
+city varchar(30) not null,
+street varchar(30) not null,
+customerId int,
+employeeId int,
+version BIGINT not null
+constraint zcsUnique unique(zipcode, city, street)
+constraint fkCustId foreign key(customerId) references customer(customerId)
+on delete cascade
+on update cascade,
+constraint fkEmpId foreign key (employeeId) references employee(employeeId)
+on delete cascade
+on update cascade
+);
+
+create table tool(
+toolId int identity(1,1),
+toolName varchar(30) not null,
+toolLength float not null,
+toolDiameter float not null,
+toolWear float not null,
+toolQuantity int not null,
+version BIGINT not null
+primary key (toolId)
+);
+
+create table machine(
+machineId int identity(1,1),
+machineName varchar(30) not null,
+machineDimension float not null,
+version BIGINT not null
+primary key (machineId)
+);
+
+create table material(
+materialId int identity(1,1),
+materialName varchar(30) not null,
+materialDimension float not null,
+version BIGINT not null
+primary key (materialId)
+);

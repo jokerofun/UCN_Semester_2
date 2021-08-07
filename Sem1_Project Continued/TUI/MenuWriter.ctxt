@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=MenuWriter
+comment0.text=\r\n\ MenuWriter\ managing\ the\ printing\ of\ the\ main\ menu\ and\ its\ options.\r\n\r\n\ @author\ Alexandru\ Krausz,\ Martin\ Benda,\ Sebastian\ Labuda,\ Simeon\ Kolev\r\n\ @version\ 2019.12.10\r\n
+comment1.params=
+comment1.target=void\ writeMenu()
+comment1.text=\r\n\ Prints\ out\ the\ options\ in\ the\ main\ menu\r\n
+comment2.params=
+comment2.target=void\ writeMainMenu()
+comment3.params=
+comment3.target=void\ writeWarehouseMenu()
+comment4.params=
+comment4.target=void\ addAllItems()
+comment5.params=
+comment5.target=void\ addWarehouseMenuItems()
+numComments=6

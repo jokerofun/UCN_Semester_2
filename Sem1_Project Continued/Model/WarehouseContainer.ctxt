@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=WarehouseContainer
+comment0.text=\r\n\ WarehouseContainer\ containing\ list\ of\ warehouses.\r\n\r\n\ @author\ Alexandru\ Krausz,\ Martin\ Benda,\ Sebastian\ Labuda,\ Simeon\ Kolev\r\n\ @version\ 2019.12.8\r\n
+comment1.params=
+comment1.target=WarehouseContainer()
+comment1.text=\r\n\ Constructor\ for\ WarehouseContainer\r\n\ @param\ warehouses\ containing\ warehouses\ \r\n
+comment2.params=
+comment2.target=WarehouseContainer\ getWarehouseContainer()
+comment2.text=\r\n\ Creates\ and\ returns\ an\ instance\ of\ WarehouseContainer\r\n\ @return\ warehouseContainer\ instance\r\n
+comment3.params=warehouse
+comment3.target=void\ addWarehouse(Warehouse)
+comment3.text=\r\n\ Used\ to\ add\ a\ warehouse\ to\ the\ list\ of\ warehouses\r\n\ @param\ warehouse\ Warehouse\r\n
+comment4.params=warehouse
+comment4.target=void\ removeWarehouse(Warehouse)
+comment4.text=\r\n\ Used\ to\ remove\ a\ warehouse\ from\ the\ list\ of\ warehouses\r\n\ @param\ warehouse\ Warehouse\r\n
+comment5.params=name
+comment5.target=Warehouse\ findWarehouseByName(java.lang.String)
+comment5.text=\r\n\ Used\ to\ find\ a\ warehouse\ from\ the\ list\ of\ warehouses\ by\ name\r\n\ @param\ name\ String\r\n\ @return\ warehouse\ Warehouse\r\n
+numComments=6

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=MainMenu
+comment0.text=\r\n\ MainMenu\ managing\ the\ main\ menu\ and\ its\ options.\r\n\r\n\ @author\ Alexandru\ Krausz,\ Martin\ Benda,\ Sebastian\ Labuda,\ Simeon\ Kolev\r\n\ @version\ 2019.12.10\r\n
+comment1.params=
+comment1.target=MainMenu()
+comment2.params=
+comment2.target=void\ printmenu()
+comment2.text=\r\n\ Prints\ out\ the\ main\ menu\r\n
+comment3.params=
+comment3.target=void\ start()
+comment3.text=\r\n\ Handles\ the\ calls\ of\ the\ different\ menus\r\n
+numComments=4

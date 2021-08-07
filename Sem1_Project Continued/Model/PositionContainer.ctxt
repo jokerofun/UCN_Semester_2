@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PositionContainer
+comment0.text=\r\n\ PositionContainer\ containing\ a\ list\ of\ Position.\r\n\r\n\ @author\ Alexandru\ Krausz,\ Martin\ Benda,\ Sebastian\ Labuda,\ Simeon\ Kolev\r\n\ @version\ 2019.12.5\r\n
+comment1.params=
+comment1.target=PositionContainer()
+comment1.text=\r\n\ Constructor\ for\ PositionContainer\r\n\ @param\ positions\ containing\ positions\r\n
+comment2.params=
+comment2.target=PositionContainer\ getPositionContainer()
+comment2.text=\r\n\ Creates\ and\ returns\ an\ instance\ of\ PositionContainer\r\n\ @return\ positionContainer\ instance\r\n
+comment3.params=position
+comment3.target=void\ addPosition(Position)
+comment3.text=\r\n\ Used\ to\ add\ a\ position\ to\ the\ list\ of\ positions\r\n\ @param\ position\ object\r\n
+comment4.params=position
+comment4.target=void\ removePosition(Position)
+comment4.text=\r\n\ Used\ to\ remove\ a\ position\ from\ the\ list\ of\ positions\r\n\ @param\ position\ object\r\n
+numComments=5

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=State
+comment0.text=\r\n\ State\ with\ current\ state\ and\ description\ of\ it.\r\n\r\n\ @author\ Alexandru\ Krausz,\ Martin\ Benda,\ Sebastian\ Labuda,\ Simeon\ Kolev\r\n\ @version\ 2019.12.8\r\n
+comment1.params=state\ description
+comment1.target=State(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ State\r\n\ @param\ state\ of\ the\ State\r\n\ @param\ description\ of\ the\ State\r\n
+comment2.params=state
+comment2.target=void\ updateState(java.lang.String)
+comment2.text=\r\n\ Updates\ the\ state\ of\ this\ State\r\n\ @param\ state\r\n
+comment3.params=description
+comment3.target=void\ updateDescription(java.lang.String)
+comment3.text=\r\n\ Updates\ the\ description\ of\ this\ RentOrder\r\n\ @param\ description\r\n
+comment4.params=
+comment4.target=java.lang.String\ getState()
+comment4.text=\r\n\ @return\ state\ of\ this\ State\r\n
+comment5.params=
+comment5.target=java.lang.String\ getDescription()
+comment5.text=\r\n\ @return\ description\ of\ this\ State\r\n
+numComments=6

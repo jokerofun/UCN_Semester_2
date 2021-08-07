@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Group
+comment0.text=\r\n\ Group\ with\ name\ and\ discount.\r\n\r\n\ @author\ Alexandru\ Krausz,\ Martin\ Benda,\ Sebastian\ Labuda,\ Simeon\ Kolev\r\n\ @version\ 2019.12.4\r\n
+comment1.params=name\ discount
+comment1.target=Group(java.lang.String,\ int)
+comment1.text=\r\n\ Constructor\ for\ Group\r\n\ @param\ name\ of\ the\ Group\r\n\ @param\ discount\ for\ the\ Group\r\n
+comment2.params=name
+comment2.target=void\ setNameGroup(java.lang.String)
+comment2.text=\r\n\ Set\ the\ name\ of\ this\ Group\r\n\ @param\ name\r\n
+comment3.params=discount
+comment3.target=void\ setDiscountGroup(int)
+comment3.text=\r\n\ Set\ the\ discount\ for\ this\ Group\r\n\ @param\ discount\r\n
+comment4.params=
+comment4.target=java.lang.String\ getNameGroup()
+comment4.text=\r\n\ @return\ name\ of\ this\ Group\r\n
+comment5.params=
+comment5.target=int\ getDiscountGroup()
+comment5.text=\r\n\ @return\ discount\ for\ this\ Group\r\n
+numComments=6

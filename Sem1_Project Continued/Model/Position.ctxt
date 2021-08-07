@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Position
+comment0.text=\r\n\ Position\ with\ name\ and\ clearance.\r\n\r\n\ @author\ Alexandru\ Krausz,\ Martin\ Benda,\ Sebastian\ Labuda,\ Simeon\ Kolev\r\n\ @version\ 2019.12.5\r\n
+comment1.params=name\ clearance
+comment1.target=Position(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ Position\r\n\ @param\ name\ of\ the\ Position\r\n\ @param\ clearance\ of\ the\ Position\r\n
+comment2.params=name
+comment2.target=void\ setNamePosition(java.lang.String)
+comment2.text=\r\n\ Set\ the\ name\ of\ this\ Position\r\n\ @param\ name\r\n
+comment3.params=clearance
+comment3.target=void\ setClearancePosition(java.lang.String)
+comment3.text=\r\n\ Set\ the\ clearance\ of\ this\ Position\r\n\ @param\ clearance\r\n
+comment4.params=
+comment4.target=java.lang.String\ getNamePosition()
+comment4.text=\r\n\ @return\ name/clearance\ of\ this\ Position\r\n
+comment5.params=
+comment5.target=java.lang.String\ getClearancePosition()
+comment5.text=\r\n\ @return\ clearance\ of\ this\ Position\r\n
+numComments=6
